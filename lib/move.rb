@@ -15,4 +15,6 @@ def input_to_index(input)
   input.to_i-1
 end 
 
-def move()
+def move(array, index, value)
+  array[index] = value
+end
